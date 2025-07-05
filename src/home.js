@@ -1,5 +1,4 @@
 function createHome() {
-
     const homeContent = document.createElement('div');
     homeContent.classList.toggle('home-content');
 
@@ -24,10 +23,10 @@ function createHome() {
     homeContent.append(heroTitle, heroImg, heroTextHeader, heroText);
 
     function getHomePage() {
-        return homeContent
+        return homeContent;
     }
     
-    return { getHomePage }
+    return { getHomePage };
 }
 
-export { createHome }
+export { createHome };
