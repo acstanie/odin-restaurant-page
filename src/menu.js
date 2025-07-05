@@ -51,9 +51,7 @@ function createMenu() {
 
     menuContent.append(item1, item2, item3, item4, item5);
 
-    function getMenuPage() {
-        return menuContent
-    }
+    const getMenuPage = () => menuContent;
 
     return { getMenuPage };
 }
